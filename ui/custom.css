@@ -107,21 +107,6 @@ footer .inverted.layout p {
 }
 /*end inverted*/
 
-/*search window*/
-.header[data-mode="middle"] .variant-a [block-type="menu_item_popup"] [block-type="fetch"] .cards .description p {
-	font-size:14px;
-}
-.header .popup [block-type="fetch"] .ui.cards {
-	margin:0.1em -0.5em;
-}
-.header .popup [block-type="fetch"] .ui.cards a.card {
-	margin-bottom:0.1rem;
-}
-.header .popup [block-type="fetch"] .ui.cards > a.card:hover {
-	transform:none;
-}
-/*end search window*/
-
 /*button*/
 a.ui.button.icon[block-type="link"] {
 	background-size: 20px 20px;
