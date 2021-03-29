@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'DINOffcPro';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./DINOffcPro.ttf');
+}
+@font-face {
+	font-family: 'DINOffcPro-Light';
+	font-style: normal;
+	src: url('./DINOffcPro-Light.ttf');
+}
+@font-face {
+	font-family: 'DINOffcPro-Black';
+	font-style: normal;
+	src: url('./DINOffcPro-Black.ttf');
+}
+@font-face {
+	font-family: 'DINOffcPro-Bold';
+	font-style: normal;
+	src: url('./DINOffcPro-Bold.ttf');
+}
+@font-face {
+	font-family: 'DINOffcPro-Medi';
+	font-style: normal;
+	src: url('./DINOffcPro-Medi.ttf');
+}
+@font-face {
+	font-family: 'DINOffcPro-Ita';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./DINOffcPro-Ita.ttf');
+}
+@font-face {
+	font-family: 'DINOffcPro-LightIta';
+	font-style: normal;
+	src: url('./DINOffcPro-LightIta.ttf');
+}
+@font-face {
+	font-family: 'DINOffcPro-BlackIta';
+	font-style: normal;
+	src: url('./DINOffcPro-BlackIta.ttf');
+}
+@font-face {
+	font-family: 'DINOffcPro-BoldIta';
+	font-style: normal;
+	src: url('./DINOffcPro-BoldIta.ttf');
+}
+@font-face {
+	font-family: 'DINOffcPro-MediIta';
+	font-style: normal;
+	src: url('./DINOffcPro-MediIta.ttf');
+}

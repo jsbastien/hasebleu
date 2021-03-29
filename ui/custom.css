@@ -1,0 +1,169 @@
+
+
+/*general*/
+html, body {
+	font-size: 14px;
+	font-family:DINOffcPro, Arial, Helvetica, sans-serif;
+	color:#000;
+}
+a {
+	color:#8a8a8a;
+}
+a:hover, a:focus, a:active {
+	color:#6BB7D4;
+}
+hr {
+	color:#ddd;
+}
+p {
+	font-size:1rem;
+}
+.ui.grid {
+	width:100%;
+}
+/*end general*/
+
+/*colors*/
+span.black0 {
+	color: #ffffff;
+}
+span.black5 {
+	color: #f2f2f2;
+}
+span.black10 {
+	color: #e6e6e6;
+}
+span.black15 {
+	color: #d9d9d9;
+}
+span.black20 {
+	color: #cccccc;
+}
+span.black25 {
+	color: #bfbfbf;
+}
+span.black30 {
+	color: #b3b3b3;
+}
+span.black40 {
+	color: #999999;
+}
+span.black50 {
+	color: #808080;
+}
+span.black60 {
+	color: #666666;
+}
+span.black70 {
+	color: #4d4d4d;
+}
+span.black80 {
+	color: #333333;
+}
+span.black90 {
+	color: #1a1a1a;
+}
+span.black100 {
+	color: #000000;
+}
+/*end colors*/
+
+/*header*/
+header {
+	background:transparent;
+	border-bottom:none;
+	transition: all 0.3s ease-in-out 0s;
+}
+[data-mode="middle"] header {
+	background:rgba(255, 255, 255, 0.7);
+	transition: all 0.3s ease-in-out 0s;
+}
+.ui.grid > .row {
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
+/*end header*/
+
+/*inverted*/
+.inverted.layout {
+	background: #4b4b4b;
+	color: #c8c8c8;
+}
+.inverted.layout p {
+	padding:2em;
+}
+.inverted.layout .ui.button {
+	color:#fff !important;
+	border:1px solid #fff !important;
+	background:transparent !important;
+}
+.inverted.layout .ui.button:hover {
+	color:#8a8a8a !important;
+	background:#c8c8c8;
+	border:1px solid #8a8a8a !important;
+}
+footer .inverted.layout p {
+	padding:0;
+}
+/*end inverted*/
+
+/*search window*/
+.header[data-mode="middle"] .variant-a [block-type="menu_item_popup"] [block-type="fetch"] .cards .description p {
+	font-size:14px;
+}
+.header .popup [block-type="fetch"] .ui.cards {
+	margin:0.1em -0.5em;
+}
+.header .popup [block-type="fetch"] .ui.cards a.card {
+	margin-bottom:0.1rem;
+}
+.header .popup [block-type="fetch"] .ui.cards > a.card:hover {
+	transform:none;
+}
+/*end search window*/
+
+/*button*/
+a.ui.button.icon[block-type="link"] {
+	background-size: 20px 20px;
+	padding-left: 20px;
+	font-family: DINOffcPro, Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	color:#8a8a8a !important;
+	border:none !important;
+}
+.ui.button {
+	color:#4B4B4B !important;
+	background:transparent;
+	font-family: DINOffcPro, Arial, Helvetica, sans-serif;
+	padding: 4px 5px;
+	border-radius:1px;
+	border:1px solid #4b4b4b;
+}
+.ui.button:hover {
+	color:#fff !important;
+	background:#4b4b4b;
+}
+.ui.button[name="date"] {
+	border:2px solid black;
+	background:#fff;
+}
+/*end button*/
+
+/*video*/
+element-embed {
+	width:100%;
+}
+/*end video*/
+
+/*portfolio*/
+[block-type="portfolio"] {
+	width:100%;
+}
+/*end portfolio*/
+
+/*gallery*/
+element-gallery {
+	width:100%;
+}
+/*end gallery*/
+
